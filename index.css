@@ -1,0 +1,148 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+    padding-inline-start: 5px;
+}
+
+li{
+    padding-bottom: 20px;
+}
+.container{
+    background-image: linear-gradient(to bottom, #dddce6 , #e2ebf0 100%);
+}
+
+.nav{
+    display: flex;;
+    height: 200px;
+    font-size: 1.5em;
+    padding: 0px 80px  0px 80px;
+    color: #485973;
+    font-family: 'Merriweather', serif;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color:#dddce6;
+    z-index: 200;
+}
+
+.nav-item{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-item-active{
+    text-decoration: underline;
+}
+
+.nav-main .nav-item-text :hover{
+    text-decoration: none;
+}
+
+.nav-item-text :hover{
+    text-decoration: underline;
+}
+
+.nav-main{
+    width: 30%;
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.nav-item-sub-text{
+    font-size: 25px;
+}
+
+
+.container{
+    padding-top: 200px;
+}
+
+.content{
+    display: flex;
+}
+
+.avatar-container{
+    width: 40%;
+}
+.avatar{
+    border-radius: 50%;
+    width: 80%;
+    padding: 10%;
+}
+
+.experience{
+    width: 60%;
+    padding: 10px;
+    font-family: 'Bitter', serif;
+}
+
+.title{
+    color: #485973;
+    font-size: 3em;
+    font-family: 'Bitter', serif;
+    height: 100px;
+    line-height: 100px;
+}
+
+.experience-header{
+    text-decoration: underline;
+    font-size: 24px;
+    color: #1e2d42;
+}
+
+.experience-item{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+}
+
+.experience-item-title{
+    width: 60%;
+    font-weight: 700;
+}
+
+.experience-item-content{
+    width: 40%;
+}
+
+.experience-item-time{
+    font-style: italic;
+}
+
+.experience-item-section{
+    padding-right: 20%;
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.experience-item-section-item{
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.bottom{
+    height: 100px;
+    width: 100%;
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 30px;
+    font-size: 20px;
+    color: #6d6d6d;
+    font-family: 'Bitter', serif;
+}
