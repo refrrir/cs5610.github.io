@@ -110,18 +110,13 @@ li{
 }
 
 .experience-item{
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 60% 40%;
     font-size: 20px;
 }
 
 .experience-item-title{
-    width: 60%;
     font-weight: 700;
-}
-
-.experience-item-content{
-    width: 40%;
 }
 
 .experience-item-time{
